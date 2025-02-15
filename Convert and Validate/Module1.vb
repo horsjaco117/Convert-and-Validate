@@ -35,7 +35,7 @@
         Dim status As Boolean
 
         Try
-            toThisInteger = convertThisString.(convertThisString)
+            toThisInteger = Convert.ToInt32(convertThisString)
             Return True
 
         Catch ex As Exception
@@ -44,7 +44,7 @@
 
         End Try
 
-        Return status
+        'Return status
 
     End Function
 
