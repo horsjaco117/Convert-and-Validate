@@ -1,10 +1,15 @@
-﻿Module Module1
+﻿'Jacob Horsley
+'RCET 0265
+'Spring 2025
+'Convert and Validate
+'URL: https://github.com/horsjaco117/Convert-and-Validate
+Module ConvertandValidate
 
     Sub Main()
 
         'for testing the function add this to your Sub Main()
 
-        Dim aValidNumber As Integer
+        Dim aValidNumber As Integer 'This  defines the variables
         Dim userResponse As String
 
         Do
@@ -31,8 +36,6 @@
 
 
     Function ConversionValid(convertThisString As String, ByRef toThisInteger As Integer) As Boolean
-
-        Dim status As Boolean
 
         Try
             toThisInteger = Convert.ToInt32(convertThisString)
