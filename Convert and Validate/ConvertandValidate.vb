@@ -3,6 +3,10 @@
 'Spring 2025
 'Convert and Validate
 'URL: https://github.com/horsjaco117/Convert-and-Validate
+
+Option Strict On
+Option Explicit On
+
 Module ConvertandValidate
 
     Sub Main()
